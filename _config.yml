@@ -76,7 +76,7 @@ code_block_max_height: 500px
 home_post_limit: 5
 
 # The github repo that is to be used for looking up comments
-comments_repo: chadbaldwin/chadbaldwin.github.io
+# comments_repo: chadbaldwin/chadbaldwin.github.io
 
 defaults:
   - scope:
