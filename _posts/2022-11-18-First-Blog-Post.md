@@ -1,1 +1,1 @@
-First Blog Post
+Blog
