@@ -6,6 +6,8 @@ description: Useful online tools and resources
 
 Various online tools, databases, references, cheatsheets, etc, that I've found over the years to be helpful in my day to day work.
 
+
+<!-- 
 If you have any suggestions to add, or a better way to organize this page, feel free to let me know in the comments.
 
 {% for category in site.data.bookmarks %}
@@ -21,4 +23,4 @@ If you have any suggestions to add, or a better way to organize this page, feel 
 
 {% if site.comments_repo %}
 {% include comments.html %}
-{% endif %}
+{% endif %} -->

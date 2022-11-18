@@ -1,19 +1,17 @@
 theme: default
 header:
-  name: Chad Baldwin
-  suffix: MCSA
+  name: Nikolaos Katsilidis
+  suffix: MEng
   display_contact_info: true
-  current_title: Senior Database Developer
+  current_title: Software Engineer - Researcher
   intro: >
-    Motivated and versatile software and database developer, MCSA certified in Database
-    Development. Proficient in schema design, data normalization techniques and query/index tuning.
-    Always looking for new challenges and new technologies to learn. Experienced with the software
-    development life cycle (SDLC) utilizing various project management methodologies including
-    Agile, Scrum and Kanban. Efficient working both independently and in a team environment.
+    Experienced Software Engineer with a demonstrated history of working in the computer software industry. 
+    Algorithms, Data Structures and System Design enthusiast with proven experience in Java, Python, Javascript,
+    NodeJS, ReactJS, Redux, React Native, Firebase, Microsoft Azure and Automation Testing.
 contact:
   #address: 123 Main St, Test, CA 91234
   #phone: (123) 456-7890
-  email: resume@chadbaldwin.net
+  # email: resume@chadbaldwin.net
 sections:
   experience:   true
   education:    true
@@ -25,11 +23,11 @@ sections:
   links:        true
   social_links: false
 social:
-  Website:    http://chadbaldwin.net
-  GitHub:     https://github.com/chadbaldwin
-  Twitter:    https://twitter.com/chad_baldwin
+  Website:    https://nikoskats.github.io/
+  GitHub:     https://github.com/NikosKats
+  # Twitter:    https://twitter.com/chad_baldwin
   #Dribbble:  https://dribbble.com/chadbaldwin
   #FaceBook:  https://facebook.com/iamchadbaldwin
-  LinkedIn:   https://linkedin.com/in/chadbaldwin
+  LinkedIn:   https://www.linkedin.com/in/nikolaos-katsilidis/
   #Instagram: https://instagram.com/chad_baldwin
   #Medium:    https://medium.com/@chad-baldwin
