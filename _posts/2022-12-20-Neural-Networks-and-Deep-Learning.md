@@ -38,4 +38,6 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 ---
 
+# _References_
+
 [^1]: [Neural Networks and Deep Learning by Andrew Ng](https://www.coursera.org/learn/neural-networks-deep-learning "Neural Networks and Deep Learning on Coursera")
