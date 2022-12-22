@@ -51,7 +51,8 @@ In a **Binary Classification** problem, the result is a discrete value output - 
 
 <figure class="center">
     <img src="/img/postimages/logisticRegression.png" alt="Logistic Regression" width="100%" height="350px" >
-    <figcaption><pre>Logistic Regression consists of inputs, weights, logistic regression function and the activation function</pre></figcaption>
+    <figcaption><pre>Logistic Regression consists of inputs, weights, 
+    logistic regression function and the activation function</pre></figcaption>
 </figure>
 
 The **loss function** measures the discrepancy between the prediction (𝑦̂(𝑖)) and the desired output (𝑦(𝑖)). In other words, the loss function computes the error for a single training example.
@@ -66,53 +67,40 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 **Normalization** is the process of scaling a set of values to have a mean of 0 and a standard deviation of 1.
 
-<div class="row">
-        <div class="column" style="background-color:#ffffff;">
-            <figure>
-                <img src="/img/postimages/shallowNN.png"
-                    alt="Shallow Neural Network">
-                <figcaption><pre></pre></figcaption>
-            </figure>
-            <p>A shallow neural network consists of an input, 
+<figure>
+    <img src="/img/postimages/shallowNN.png"  alt="Shallow Neural Network">
+    <figcaption><pre></pre></figcaption> 
+</figure>
+<p>A shallow neural network consists of an input, 
                 a hidden and an output layer.</p>
-        </div>
-        <div class="column" style="background-color:#ffffff;">
-            <figure>
-            <img src="/img/postimages/activationFunctions.png"
-                alt="Activation Functions">
-            <figcaption><pre></pre></figcaption>
-        </figure>
-        <p>Activation functions are mathematical equations 
-            that determine the output of a neuron in a neural network.</p>
-        </div>
-</div>
+
+<figure>
+<img src="/img/postimages/activationFunctions.png" alt="Activation Functions">
+<figcaption><pre></pre></figcaption>
+</figure>
+<p>Activation functions are mathematical equations 
+    that determine the output of a neuron in a neural network.</p>
 
 ---
 
-<div class="row">
-        <div class="column" style="background-color:#ffffff;">
-            <figure>
-                <img src="/img/postimages/gradientDescent.png"
-                    alt="Gradient Descent">
-                <figcaption><pre></pre></figcaption>
-            </figure>
-            <p>Gradient Descent is an optimization algorithm. The algorithm works by iteratively updating the values of the parameters in the direction that reduces the loss. 
-            </p>
-        </div>
-        <div class="column" style="background-color:#ffffff;">
-            <figure>
-            <img src="/img/postimages/fprop_bprop.png"
-                alt="Forward and Backward propagation">
-            <figcaption><pre></pre></figcaption>
-        </figure>
-            <p> 
+<figure>
+    <img src="/img/postimages/gradientDescent.png" alt="Gradient Descent">
+    <figcaption><pre></pre></figcaption>
+</figure>
+
+<p>Gradient Descent is an optimization algorithm. The algorithm works by iteratively updating the values of the parameters in the direction that reduces the loss. 
+</p>
+
+<figure>
+    <img src="/img/postimages/fprop_bprop.png" alt="Forward and Backward propagation">
+    <figcaption><pre></pre></figcaption>
+</figure>
+
+<p> 
             In Forward propagation the input data is processed through the network layers to generate output.
             Backpropagation’s goal  is to adjust the weights of the connections in such a way as to minimize the difference between the predicted output of the network and the target output.
             A neural network in contrast with logistic regression that initializes its parameters with zero, has to randomly initialize its parameters in order to work.
-            </p>
-        </div>
-</div>
-
+</p>
 ---
 
 <figure class="center">
