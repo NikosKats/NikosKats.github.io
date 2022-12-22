@@ -6,7 +6,10 @@ A **Neuron** is inspired by the biological neuron and is the basic building bloc
 
 A neuron consists of a set of inputs, called dendrites, and a single output, called an axon. The inputs of a neuron are connected to the outputs of other neurons, forming a network of connections. Each connection is associated with a weight, which determines the strength of the connection.
 
-![alt text](/img/postimages/neuralNetwork.jpg)
+<figure>
+    <img src="/img/postimages/neuralNetwork.jpg" alt="Shallow Neural Network" width="100px" height="100px">
+    <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
+</figure>
 
 Neural Networks are inspired by the human brain and they are comprised of node layers or neurons.
 
@@ -22,7 +25,10 @@ In a Binary Classification problem, the result is a discrete value output - acco
 
 **Logistic Regression** is an algorithm for Binary Classification, it estimates the probability of an event occurring, such as voted or didn’t vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1. `𝐺𝑖𝑣𝑒𝑛 𝑥, 𝑦̂=𝑃(𝑦=1 | 𝑥), where 0 ≤𝑦̂≤1`
 
-![alt text](/img/postimages/logisticRegression.png)
+<figure>
+    <img src="/img/postimages/logisticRegression.png" alt="Shallow Neural Network" width="100px" height="100px">
+    <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
+</figure>
 
 The **loss function** measures the discrepancy between the prediction (𝑦̂(𝑖)) and the desired output (𝑦(𝑖)). In other words, the loss function computes the error for a single training example.
 
@@ -54,7 +60,7 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 </style>
 
  <div class="row">
-        <div class="column" style="background-color:#FFB695;">
+        <div class="column" style="background-color:#ffffff; margin:5;">
             <h2>Column 1</h2>
             <p>Data..</p>
             <figure>
@@ -63,7 +69,7 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
                 <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
             </figure>
         </div>
-        <div class="column" style="background-color:#96D1CD;">
+        <div class="column" style="background-color:#ffffff; margin:5;">
             <h2>Column 2</h2>
             <p>Data..</p>
             <figure>
