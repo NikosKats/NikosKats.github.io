@@ -2,7 +2,7 @@ theme: minima
 
 title: Nikolaos Katsilidis Blog
 author: Nikolaos Katsilidis
-# email: 
+# email:
 url: https://nikoskats.github.io
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
@@ -12,8 +12,8 @@ description: >
   My thoughts on Deep Learning and Software Engineering blog. Probably no one else will ever read it, but oh well.
 
 # Minima variables
-# twitter_username:  
-github_username:   NikosKats
+# twitter_username:
+github_username: NikosKats
 linkedin_username: nikolaos-katsilidis
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -28,21 +28,21 @@ show_excerpts: false
 
 # Used by simple links page
 social-links:
-  Resume:        https://nikoskats.github.io/resume
-  LinkedIn:      https://www.linkedin.com/in/nikolaos-katsilidis/
+  Resume: https://nikoskats.github.io/resume
+  LinkedIn: https://www.linkedin.com/in/nikolaos-katsilidis/
   StackOverflow: https://stackoverflow.com/users/7101646/mpesiths
-  HackerRank:    https://www.hackerrank.com/Nikolaos_Katsil2
-  GitHub:        https://github.com/NikosKats
-  LeetCode:      https://leetcode.com/katsilidisn/
-  Microsoft:     https://studentambassadors.microsoft.com/en-US/profile/40727
-  Website:       https://nikoskats.github.io
+  HackerRank: https://www.hackerrank.com/Nikolaos_Katsil2
+  GitHub: https://github.com/NikosKats
+  LeetCode: https://leetcode.com/katsilidisn/
+  Microsoft: https://studentambassadors.microsoft.com/en-US/profile/40727
+  Website: https://nikoskats.github.io
 
 plugin: jekyll-seo-tag
 twitter:
-  username: 
+  username:
   card: summary_large_image
 social:
-  name: 
+  name:
   links:
     # - https://twitter.com/
     - https://linkedin.com/in/nikolaos-katsilidis
@@ -82,7 +82,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+      image: https://media.licdn.com/dms/image/C4E03AQEhHa5rE7gkwQ/profile-displayphoto-shrink_400_400/0/1552511096541?e=1677110400&v=beta&t=tr5-hCV4O_qB-abo5z6x5BKgqJU9JitAoefMlvt_V6o # Apply default site image
   - scope:
       path: ""
       type: posts
