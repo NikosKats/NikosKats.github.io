@@ -36,23 +36,43 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 **Normalization** is the process of scaling a set of values to have a mean of 0 and a standard deviation of 1.
 
-> :warning: **Warning:** Do not push the big red button.
+ <style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    }
 
-> :memo: **Note:** Sunrises are beautiful.
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+</style>
 
-> :bulb: **Tip:** Remember to appreciate the little things in life.
-
-<figure>
-    <img src="/img/postimages/shallowNN.png"
-         alt="Shallow Neural Network">
-    <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
-</figure>
-
-<figure>
-    <img src="/img/postimages/activationFunctions.png"
-         alt="Activation Functions">
-    <figcaption>Activation functions are mathematical equations that determine the output of a neuron in a neural network.</figcaption>
-</figure>
+ <div class="row">
+        <div class="column" style="background-color:#FFB695;">
+            <h2>Column 1</h2>
+            <p>Data..</p>
+            <figure>
+                <img src="/img/postimages/shallowNN.png"
+                    alt="Shallow Neural Network">
+                <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
+            </figure>
+        </div>
+        <div class="column" style="background-color:#96D1CD;">
+            <h2>Column 2</h2>
+            <p>Data..</p>
+            <figure>
+            <img src="/img/postimages/activationFunctions.png"
+                alt="Activation Functions">
+            <figcaption>Activation functions are mathematical equations that determine the output of a neuron in a neural network.</figcaption>
+        </figure>
+        </div>
+    </div>
 
 ---
 
