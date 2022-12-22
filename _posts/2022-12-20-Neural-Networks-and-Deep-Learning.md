@@ -83,7 +83,7 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 Activation functions are used in artificial neural networks to introduce non-linearity into the model.
 
-The **sigmoid function**,** tanh function**, and **ReLU** (rectified linear unit) function are all commonly used activation functions in neural network models.
+The **sigmoid function**, **tanh function**, and **ReLU** (rectified linear unit) function are all commonly used activation functions in neural network models.
 
 The **sigmoid function** maps any input to a value between 0 and 1, which makes it a useful activation function for output layers that need to predict probabilities. However, the sigmoid function can saturate (i.e., produce output values that are very close to 0 or 1) when the input is large, which can slow down the training process and limit the model's ability to learn.
 
