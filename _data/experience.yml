@@ -34,8 +34,8 @@ Netlink offers its customers high value-added products and services."
   url: "https://www.neunen.com/"
   positions:
     - title: "Full Stack Software Engineer"
-      startdate: 2020-04-01
-      enddate: 2020-09-01
+      startdate: 2021-04-01
+      enddate: 2021-09-01
       summary: "Neunen was founded in Thessaloniki in January 2020 by Dimitrios Nikolaidis and Vasilis Tsiavos both having more than 20 years of experience in large international IT projects for multi-billion companies. We help medium to large enterprises to establish IT processes, develop software and automate their business processes.
 Neunen provides a complete outsourcing solution for Software Development, Testing and Project Management. Neunen operates from its newly renovated offices in the center of Thessaloniki, Greece, the new rapidly evolving IT hub in the heart of Europe!"
       projects:
@@ -53,7 +53,36 @@ Neunen provides a complete outsourcing solution for Software Development, Testin
         - Guiding junior members to develop a centralized logging system (Prometheus, Grafana)
         - Helping in developing mockups for better UI/UX (Figma)
 
-        
+
+- company: Lifetime HSS - Health Software Solutions
+ summary:
+ logo: /img/companylogos/lifetime.jpeg
+ url: https://lifetimehss.com/
+ positions:
+ - title: Co-Founder
+   startdate: 2020-04-01
+   enddate: 2021-04-01
+   summary: "Lifetime HSS is an emergency software that can be used by any user as an ordinary citizen if they are in an emergency as well as as a volunteer-rescuer if they have the appropriate training certificates. More specifically...
+- Ordinary users can alert for emergencies if they find themselves in such a situation
+- Rescue volunteers who have joined the application by contacting us or their training center, receive alarms and have a number of useful tools of the application to respond to emergencies.
+- Real-time monitoring of the location of the victim as well as the other volunteer-rescuers who have undertaken the incident"
+   projects:
+    - Negotiations with VC firms & Partners
+    - Data driven decision making
+    - Hands-on Full-stack development – (Java Spring, Azure Cloud, Android & iOS Native, CI/CD, MVC, REST APIs, SQL, Java Patterns & Best Practices, System Design, Algorithms & Data Structures)
+
+- company: American Money Group, Inc
+ summary:
+ logo: /img/companylogos/likno.jpeg
+ url: https://www.likno.com/
+ positions:
+ - title: Javascript Developer (ReactJS) Internship
+   startdate: 2019-07-01
+   enddate: 2019-09-01
+   summary: "Likno Software is a software development company based in Athens, Greece. Since year 2000, Likno Software has provided the international community of web developers several desktop applications for their website design needs (AllWebMenus, Likno Web Modal Windows Builder, Likno Web Scroller Builder, etc.) and established itself as an expert in web technologies such as JavaScript, CSS, jQuery, React, React Native, etc."
+   projects:
+    - Analysis, design and implementation of enterprise ReactJS components
+    - Worked closely and collaborated with the Software Engineering  Team 
 
 
 #- company: American Money Group, Inc
