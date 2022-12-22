@@ -16,7 +16,5 @@
   year: "Certified 2022"
   summary: >
     <div class="no-print">
-      <iframe src="ftp://www.coursera.org/account/accomplishments/specialization/certificate/NX9BA3KMK7VX" title="Deep Learning Specialization Certificate by Andrew Ng">
-      </iframe>
+      <embed type="text/html" src="https://www.coursera.org/account/accomplishments/specialization/certificate/NX9BA3KMK7VX" width="500" height="200">
     </div>
-    
