@@ -18,3 +18,11 @@
     <div class="no-print">
       <embed type="text/html" src="https://www.coursera.org/account/accomplishments/specialization/certificate/NX9BA3KMK7VX" width="500" height="200">
     </div>
+
+- award: "JavaScript (Basic) Certificate"
+  organization: HackerRank
+  year: "Certified 07/07/2022"
+  summary: >
+    <div class="no-print">
+      <iframe src="https://www.hackerrank.com/certificates/iframe/86dab5db38a0" title="W3Schools Free Online Web Tutorials"></iframe>
+    </div>
