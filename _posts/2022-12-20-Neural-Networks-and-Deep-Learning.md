@@ -115,6 +115,23 @@ In summary, the sigmoid function is useful for output layers that need to predic
             Backpropagation’s goal  is to adjust the weights of the connections in such a way as to minimize the difference between the predicted output of the network and the target output.
             A neural network in contrast with logistic regression that initializes its parameters with zero, has to randomly initialize its parameters in order to work.
 </p>
+
+A **partial derivative** is a derivative taken with respect to one variable, holding the other variables fixed. It allows you to see how much a function changes when you change one of its variables, while keeping the others constant.
+
+For example, consider a function f(x,y) that depends on two variables x and y. The partial derivative of f with respect to x is denoted as ∂f/∂x, and it represents the rate of change of f with respect to x, holding y constant.
+
+Similarly, the partial derivative of f with respect to y is denoted as ∂f/∂y, and it represents the rate of change of f with respect to y, holding x constant.
+
+Partial derivatives are often used in multivariate calculus and are a fundamental tool for understanding how functions of multiple variables behave. They are used in a wide range of applications, including optimization, engineering, and economics.
+
+In the context of mathematics and computer science, the term "convergence" typically refers to the process of approaching a specific value or set of values as a function of some variable.
+
+For example, if a sequence of numbers is said to converge to a particular value, it means that as the numbers in the sequence get further and further along, they get closer and closer to the specified value. Similarly, if an iterative algorithm is said to converge, it means that as the algorithm progresses through its iterations, the output or result of the algorithm approaches a specific value or set of values.
+
+In general, the concept of convergence is important in many areas of mathematics and computer science, as it allows us to understand how various processes and algorithms behave as they approach a specific result or set of results.
+
+Convergence is often used to analyze the behavior of algorithms and other processes, and to understand how they perform as they approach a specific result or set of results.
+
 ---
 
 <figure class="center">
