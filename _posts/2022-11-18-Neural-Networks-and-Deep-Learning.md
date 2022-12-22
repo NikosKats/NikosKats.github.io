@@ -6,7 +6,7 @@ A Neuron is inspired by the biological neuron and is the basic building block of
 
 A neuron consists of a set of inputs, called dendrites, and a single output, called an axon. The inputs of a neuron are connected to the outputs of other neurons, forming a network of connections. Each connection is associated with a weight, which determines the strength of the connection.
 
-![alt text](img/postimages/neuralNetwork.jpg)
+[![alt text](img/postimages/neuralNetwork.jpg)]
 
 Neural Networks are inspired by the human brain and they are comprised of node layers or neurons.
 
