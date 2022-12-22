@@ -73,17 +73,19 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
             <figure>
                 <img src="/img/postimages/shallowNN.png"
                     alt="Shallow Neural Network">
-                <figcaption><pre>A shallow neural network consists of an input, 
-                a hidden and an output layer.</pre></figcaption>
+                <figcaption><pre></pre></figcaption>
             </figure>
+            <p>A shallow neural network consists of an input, 
+                a hidden and an output layer.</p>
         </div>
         <div class="column" style="background-color:#ffffff;">
             <figure>
             <img src="/img/postimages/activationFunctions.png"
                 alt="Activation Functions">
-            <figcaption><pre>Activation functions are mathematical equations 
-            that determine the output of a neuron in a neural network.</pre></figcaption>
+            <figcaption><pre></pre></figcaption>
         </figure>
+        <p>Activation functions are mathematical equations 
+            that determine the output of a neuron in a neural network.</p>
         </div>
 </div>
 
