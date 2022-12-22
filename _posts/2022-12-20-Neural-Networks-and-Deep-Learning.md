@@ -67,14 +67,14 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 **Normalization** is the process of scaling a set of values to have a mean of 0 and a standard deviation of 1.
 
-<figure>
+<figure class="center">
     <img src="/img/postimages/shallowNN.png"  alt="Shallow Neural Network">
     <figcaption><pre></pre></figcaption> 
 </figure>
 <p>A shallow neural network consists of an input, 
                 a hidden and an output layer.</p>
 
-<figure>
+<figure class="center">
 <img src="/img/postimages/activationFunctions.png" alt="Activation Functions">
 <figcaption><pre></pre></figcaption>
 </figure>
@@ -83,7 +83,7 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 ---
 
-<figure>
+<figure class="center">
     <img src="/img/postimages/gradientDescent.png" alt="Gradient Descent">
     <figcaption><pre></pre></figcaption>
 </figure>
@@ -91,7 +91,7 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 <p>Gradient Descent is an optimization algorithm. The algorithm works by iteratively updating the values of the parameters in the direction that reduces the loss. 
 </p>
 
-<figure>
+<figure class="center">
     <img src="/img/postimages/fprop_bprop.png" alt="Forward and Backward propagation">
     <figcaption><pre></pre></figcaption>
 </figure>
