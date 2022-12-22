@@ -21,31 +21,41 @@ Netlink offers its customers high value-added products and services."
   positions:
     - title: "Full Stack Software Engineer"
       startdate: 2021-09-01
-      summary: "Primarily working with SQL, C# and PowerShell; improved products by working with development and product teams to engineer back-end services, build databases and design schemas. Implemented ETL processes for importing, cleansing and normalizing automotive dealership data to be processed by our proprietary calculation engine."
+      summary: "Primarily working with Javescript and JS frameworks such as ReactJS, NodeJS, React Native and Electron. NoSQL and SQL databases such as Couchbase, Cloud Firestore and SQL server MSDB."
       projects:
-        - "Collaborated with 3rd party data providers to build integrations for tasks such as SalesForce data syncing, email/address sanitization, data appends and ETL processes"
-        - "Helped maintain and improve an elaborate calculation engine written in SQL to support new features and settings"
-        - "Tuned existing SQL code to run faster and more efficiently reducing both runtime and resource usage through query and index tuning by analyzing execution plans, server statistics, dynamic management views (DMV's), SQL Server First Responder Kit and SentryOne Plan Explorer"
-        - "Worked on many ETL projects using SQL, C#, PowerShell and batch scripting, and SSIS packages"
-        - "Contributed to complex back-end services written in C# utilizing technologies such as Elasticsearch, RabbitMQ, Redis, Amazon SNS, Amazon SES, Amazon S3, Docker, Selenium web scraping, and handling files via FTP"
-        - "Experience with using collaboration and CI/CD tools including Jenkins, Slack, Upsource, Jira and Confluence"
-        - "Worked primarily with SQL Server versions 2008, 2012, 2014 practicing good HA/DR policies, using replication and Always On availability groups"
-        - "Used AWS tools for troubleshooting, logging and deployment such as CloudWatch, CodeDeploy, and managing/monitoring servers through EC2"
+        - "Netlink Retail"
+        - "Netlink Airtime"
+        
   
 
-- company: "Albert A. Webb Associates"
+- company: "Neunen"
   summary:
-  logo: "/img/companylogos/aawa.png"
-  url: "https://www.webbassociates.com/"
+  logo: "/img/companylogos/neunen.jpeg"
+  url: "https://www.neunen.com/"
   positions:
-    - title: "IT Intern / Network Technician"
-      startdate: 2008-10-13
-      enddate: 2012-06-01
-      summary: "Supported a large multi-location network which hosted on-prem services for hundreds of civil engineers. Assisted in the installation and configuration of SAN, virtualization, network and power equipment."
+    - title: "Full Stack Software Engineer"
+      startdate: 2020-04-01
+      enddate: 2020-09-01
+      summary: "Neunen was founded in Thessaloniki in January 2020 by Dimitrios Nikolaidis and Vasilis Tsiavos both having more than 20 years of experience in large international IT projects for multi-billion companies. We help medium to large enterprises to establish IT processes, develop software and automate their business processes.
+Neunen provides a complete outsourcing solution for Software Development, Testing and Project Management. Neunen operates from its newly renovated offices in the center of Thessaloniki, Greece, the new rapidly evolving IT hub in the heart of Europe!"
       projects:
-        - "Eliminated the need for hiring Cisco consultants by learning to support the Cisco devices through personal research, and formal courses offered at the local college"
-        - "In charge of installing, configuring and managing network monitoring software for hundreds of network devices using Nagios"
-        - "Established a reliable system for imaging and deploying desktops for new users"
+        - "Monitoring and Alerting System"
+        - Confer with management to define software requirements (Stand-ups, Jira, Confluence, Sprints)
+        - Design & Implementation of FEs (React.js)
+        - Design & Implementation of BEs (Node, REST APIs, Microservices, Containerization)
+        - Design of project's infrastructure. Servers with high-traffic & time-critical processes, Communication (http/https), Load balancers (nginx), CI/CD (Gitlab), Docker).
+        - Design & implementation of DBs (MySQL, Redis)
+        - Communication with 3rd party tools (Stripe, Paypal, Twilio)
+        - Integration with Authentication tools (Keycloak)
+        - See that the system conforms with quality standards (Sonarqube)
+        - Guiding junior members to set different environments (dev, QA, prod)
+        - Guiding junior members to develop e2e & unit tests (Selenium, Cucumber, Cypress, Jest.js)
+        - Guiding junior members to develop a centralized logging system (Prometheus, Grafana)
+        - Helping in developing mockups for better UI/UX (Figma)
+
+        
+
+
 #- company: American Money Group, Inc
 #  summary:
 #  logo: /img/companylogos/amg.jpg
