@@ -5,29 +5,27 @@ header:
   display_contact_info: true
   current_title: Software Engineer - Researcher
   intro: >
-    Experienced Software Engineer with a demonstrated history of working in the computer software industry. 
-    Algorithms, Data Structures and System Design enthusiast with proven experience in Java, Python, Javascript,
-    NodeJS, ReactJS, Redux, React Native, Firebase, Microsoft Azure and Automation Testing.
+    Experienced Software Engineer with a demonstrated history of working in the computer software industry. Algorithms, Data Structures and System Design enthusiast with proven experience in Java, Python, Javascript, NodeJS, ReactJS, Redux, React Native, Firebase, Microsoft Azure,Automation Testing, Deep Learning and AI development.
 contact:
   #address: 123 Main St, Test, CA 91234
   #phone: (123) 456-7890
   # email: resume@chadbaldwin.net
 sections:
-  experience:   true
-  education:    true
-  projects:     true
-  skills:       true
-  recognition:  true
+  experience: true
+  education: true
+  projects: true
+  skills: true
+  recognition: true
   associations: false
-  interests:    true
-  links:        true
+  interests: true
+  links: true
   social_links: false
 social:
-  Website:    https://nikoskats.github.io/
-  GitHub:     https://github.com/NikosKats
+  Website: https://nikoskats.github.io/
+  GitHub: https://github.com/NikosKats
   # Twitter:    https://twitter.com/chad_baldwin
   #Dribbble:  https://dribbble.com/chadbaldwin
   #FaceBook:  https://facebook.com/iamchadbaldwin
-  LinkedIn:   https://www.linkedin.com/in/nikolaos-katsilidis/
+  LinkedIn: https://www.linkedin.com/in/nikolaos-katsilidis/
   #Instagram: https://instagram.com/chad_baldwin
   #Medium:    https://medium.com/@chad-baldwin
