@@ -9,7 +9,7 @@ timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
 
 description: >
-  My thoughts on Deep Learning and Software Engineering as well as my Microsoft Learn Student Ambassadors journey.
+  My thoughts on Deep Learning and Software Engineering.
 
 # Minima variables
 # twitter_username:
