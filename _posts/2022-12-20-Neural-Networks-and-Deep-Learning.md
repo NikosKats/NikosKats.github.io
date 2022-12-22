@@ -18,7 +18,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 70%;
     }
 </style>
 
@@ -32,7 +32,8 @@ A neuron consists of a set of inputs, called dendrites, and a single output, cal
 
 <figure class="center">
     <img src="/img/postimages/neuralNetwork.jpg" alt="Shallow Neural Network" width="350px" height="350px" >
-    <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
+    <figcaption><pre>A shallow neural network consists of an input, 
+    a hidden and an output layer.</pre></figcaption>
 </figure>
 
 **Neural Networks** are inspired by the human brain and they are comprised of node layers or neurons.
@@ -51,7 +52,8 @@ In a **Binary Classification** problem, the result is a discrete value output - 
 
 <figure class="center">
     <img src="/img/postimages/logisticRegression.png" alt="Shallow Neural Network" width="350px" height="350px" >
-    <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
+    <figcaption><pre>A shallow neural network consists of an input, 
+    a hidden and an output layer.</pre></figcaption>
 </figure>
 
 The **loss function** measures the discrepancy between the prediction (𝑦̂(𝑖)) and the desired output (𝑦(𝑖)). In other words, the loss function computes the error for a single training example.
@@ -75,6 +77,7 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
             </figure>
         </div>
         <div class="column" style="background-color:#ffffff;">
+            <p hidden>hidden paragraph</p>
         </div>
         <div class="column" style="background-color:#ffffff;">
             <figure>
