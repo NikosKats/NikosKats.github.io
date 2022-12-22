@@ -38,6 +38,7 @@
   {%- if site.gravatar_hash -%}
     <img src="https://media.licdn.com/dms/image/C4E03AQEhHa5rE7gkwQ/profile-displayphoto-shrink_400_400/0/1552511096541?e=1677110400&v=beta&t=tr5-hCV4O_qB-abo5z6x5BKgqJU9JitAoefMlvt_V6o" alt="my photo" class="avatar no-print" itemprop="image">
   {%- endif -%}
+  <br>
   <!-- Name and Suffix -->
   <div class="header-title">
     <span class="header-name" itemprop="name">{{ resume.header.name }}</span>
@@ -57,9 +58,11 @@
       {%- endfor -%}
     </div>
   {%- endif -%}
+
   <!-- Title and social icon links -->
   <div class="title-bar no-print">
     <div class="job-title" itemprop="jobTitle">{{ resume.header.current_title }}</div>
+    <br>
     {%- if resume.social -%}
       <div class="icon-links">
         {%- for item in resume.social -%}
@@ -79,6 +82,7 @@
       </div>
     {%- endif -%}
   </div>
+  <br>
   <!-- Summary -->
   <div class="executive-summary" itemprop="description"><p>{{ resume.header.intro }}</p></div>
   <!-- Contact me button -->
@@ -101,6 +105,7 @@
             <div class="skill-description">
               {{ skill.description }}
             </div>
+            <br>
           {%- endif -%}
           {%- if skill.list -%}
             {%- assign skillSorted = skill.list | sort_natural -%}
@@ -117,6 +122,7 @@
   </section>
 {%- endif -%}
 
+<br>
 {%- if resume.sections.experience -%}
   <section class="content-section">
     <header class="section-header"><h2>Experience</h2></header>
