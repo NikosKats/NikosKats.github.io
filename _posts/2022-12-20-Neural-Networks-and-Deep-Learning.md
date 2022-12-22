@@ -68,22 +68,80 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 **Normalization** is the process of scaling a set of values to have a mean of 0 and a standard deviation of 1.
 
- <div class="row">
+<div class="row">
         <div class="column" style="background-color:#ffffff;">
             <figure>
                 <img src="/img/postimages/shallowNN.png"
                     alt="Shallow Neural Network">
-                <figcaption><pre>A shallow neural network consists of an input, a hidden and an output layer.</pre></figcaption>
+                <figcaption><pre>A shallow neural network consists of an input, 
+                a hidden and an output layer.</pre></figcaption>
             </figure>
         </div>
         <div class="column" style="background-color:#ffffff;">
             <figure>
             <img src="/img/postimages/activationFunctions.png"
                 alt="Activation Functions">
-            <figcaption><pre>Activation functions are mathematical equations that determine the output of a neuron in a neural network.</pre></figcaption>
+            <figcaption><pre>Activation functions are mathematical equations 
+            that determine the output of a neuron in a neural network.</pre></figcaption>
         </figure>
         </div>
-    </div>
+</div>
+
+<div class="row">
+        <div class="column" style="background-color:#ffffff;">
+            <figure>
+                <img src="/img/postimages/gradientDescent.png"
+                    alt="Gradient Descent">
+                <figcaption><pre></pre></figcaption>
+            </figure>
+            <p>Gradient Descent is an optimization algorithm. The algorithm works by iteratively updating the values of the parameters in the direction that reduces the loss. 
+            </p>
+        </div>
+        <div class="column" style="background-color:#ffffff;">
+            <figure>
+            <img src="/img/postimages/fprop_bprop.png"
+                alt="Forward and Backward propagation">
+            <figcaption><pre></pre></figcaption>
+        </figure>
+            <p> 
+            In Forward propagation the input data is processed through the network layers to generate output.
+            Backpropagation’s goal  is to adjust the weights of the connections in such a way as to minimize the difference between the predicted output of the network and the target output.
+            A neural network in contrast with logistic regression that initializes its parameters with zero, has to randomly initialize its parameters in order to work.
+            </p>
+        </div>
+</div>
+
+<figure class="center">
+    <img src="/img/postimages/gd.png" alt="Gradient Descent" width="100%" height="350px" >
+    <figcaption><pre></pre></figcaption>
+</figure>
+
+**Gradient Descent** is an optimization algorithm that is used to find the values of the weights and biases that minimize the loss function in a machine learning model. It involves adjusting the values of the weights and biases in small increments based on the gradient of the loss function until the loss is minimized or the model has reached a satisfactory level of performance.
+
+Gradient descent is an optimization algorithm that is used to find the values of parameters (such as weights and biases) that minimize a loss function. It is a key part of the training process for many machine learning models, including neural networks.
+
+In gradient descent, the model makes predictions based on a set of input data and compares the predictions to the true values (also known as the labels). The difference between the predictions and the true values is the loss, which is a measure of how well the model is performing. The goal of gradient descent is to find the values of the model's parameters that minimize the loss.
+
+Weights and biases are model parameters that are used to make predictions. In a neural network, weights are the values that are multiplied by the input data and summed together to produce the input for the activation function. Biases are added to the weighted sum of the inputs and can help the model make predictions that are shifted away from 0.
+
+During the training process, the model uses gradient descent to adjust the values of the weights and biases in order to minimize the loss. The model starts with initial values for the weights and biases and then adjusts these values in small increments based on the gradient of the loss function. The gradient is a vector of partial derivatives that points in the direction of the greatest increase in the loss function. The model moves in the opposite direction of the gradient, which helps to reduce the loss.
+
+The process of adjusting the weights and biases in small increments based on the gradient of the loss function is repeated until the loss is minimized or the model has reached a satisfactory level of performance. The values of the weights and biases that result in the lowest possible loss are the optimal values that the model should use to make predictions.
+
+In summary, gradient descent is an optimization algorithm that is used to find the values of the weights and biases that minimize the loss function in a machine learning model. It involves adjusting the values of the weights and biases in small increments based on the gradient of the loss function until the loss is minimized or the model has reached a satisfactory level of performance.
+
+<figure class="center">
+    <img src="/img/postimages/dnn.png" alt="Deep Neural Network" width="100%" height="350px" >
+    <figcaption><pre></pre></figcaption>
+</figure>
+
+A Deep Neural Network consists of multiple hidden layers. A neural network with more than one hidden layer is consider deep.
+
+Deep neural networks, which have many layers, have been shown to be more powerful and effective than shallow neural networks, which have fewer layers, for many tasks such as image and speech recognition.
+
+Deep networks are able to learn hierarchical representations of the data, where lower layers learn simple patterns and higher layers learn increasingly complex and abstract patterns based on the outputs of the lower layers.
+
+Additionally, deep networks can be trained more efficiently using techniques such as backpropagation and batch normalization, which helps to improve the performance of the network.
 
 ---
 
