@@ -26,14 +26,13 @@
 
 ## Introduction to Deep Learning
 
-A **Neuron** is inspired by the biological neuron and is the basic building block of neural networks. Are responsible for computing and transmitting information through the network.
+A **Neuron** is inspired by the biological neuron and is the basic building block of neural networks. Neurons are responsible for computing and transmitting information through the network.
 
 A neuron consists of a set of inputs, called dendrites, and a single output, called an axon. The inputs of a neuron are connected to the outputs of other neurons, forming a network of connections. Each connection is associated with a weight, which determines the strength of the connection.
 
 <figure class="center">
     <img src="/img/postimages/neuralNetwork.jpg" alt="Shallow Neural Network" width="100%" height="350px" >
-    <figcaption><pre>A shallow neural network consists of an input, 
-    a hidden and an output layer.</pre></figcaption>
+    <figcaption><pre>A biological neuron with its axon and dendrites.</pre></figcaption>
 </figure>
 
 **Neural Networks** are inspired by the human brain and they are comprised of node layers or neurons.
@@ -51,9 +50,8 @@ In a **Binary Classification** problem, the result is a discrete value output - 
 **Logistic Regression** is an algorithm for Binary Classification, it estimates the probability of an event occurring, such as voted or didn’t vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1. `𝐺𝑖𝑣𝑒𝑛 𝑥, 𝑦̂=𝑃(𝑦=1 | 𝑥), where 0 ≤𝑦̂≤1`
 
 <figure class="center">
-    <img src="/img/postimages/logisticRegression.png" alt="Shallow Neural Network" width="100%" height="350px" >
-    <figcaption><pre>A shallow neural network consists of an input, 
-    a hidden and an output layer.</pre></figcaption>
+    <img src="/img/postimages/logisticRegression.png" alt="Logistic Regression" width="100%" height="350px" >
+    <figcaption><pre>Logistic Regression consists of inputs, weights, logistic regression function and the activation function</pre></figcaption>
 </figure>
 
 The **loss function** measures the discrepancy between the prediction (𝑦̂(𝑖)) and the desired output (𝑦(𝑖)). In other words, the loss function computes the error for a single training example.
