@@ -35,7 +35,7 @@ A neuron consists of a set of inputs, called dendrites, and a single output, cal
     <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
 </figure>
 
-Neural Networks are inspired by the human brain and they are comprised of node layers or neurons.
+**Neural Networks** are inspired by the human brain and they are comprised of node layers or neurons.
 
 Each node or artificial neuron is connected to another neuron and has an associated weight and threshold. If the output of any individual neuron is above the specified threshold value, the neuron is activated, sending data to the next layer of the network. Otherwise no data is passed along to the next layer of the network.
 
@@ -45,7 +45,7 @@ Each node or artificial neuron is connected to another neuron and has an associa
 
 ## Logistic Regression as a Neural Network
 
-In a Binary Classification problem, the result is a discrete value output - account hacked (1) or not hacked (0) - is a cat image (1) or a non-cat image (0).
+In a **Binary Classification** problem, the result is a discrete value output - account hacked (1) or not hacked (0) - is a cat image (1) or a non-cat image (0).
 
 **Logistic Regression** is an algorithm for Binary Classification, it estimates the probability of an event occurring, such as voted or didn’t vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1. `𝐺𝑖𝑣𝑒𝑛 𝑥, 𝑦̂=𝑃(𝑦=1 | 𝑥), where 0 ≤𝑦̂≤1`
 
