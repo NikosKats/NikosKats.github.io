@@ -9,13 +9,13 @@
 # other is used. Lists are sorted and concatenated without line breaks separated by • (&bull;)
 
 - skill: Full Stack Software Engineer
-  description: "3+ years of experience in full stack software analysis, architecture and development with JS Frameworks like ReactJS, NodeJS, React Native, NoSQL and SQL databases like Cloud Firestore, Couchbase and MySQL."
+  description: "3+ years of experience in full stack software analysis, architecture and development with JS Frameworks like ReactJS, NodeJS, React Native, NoSQL and SQL databases like Cloud Firestore, Couchbase and MySQL.\n"
 
 - skill: Algorithms and System Design Engineer
-  description: "Experienced in algorithms and system design questions with more than 50 Leetcode problems solved."
+  description: "Experienced in algorithms and system design questions with more than 50 Leetcode problems solved.\n"
 
 - skill: AI Engineer
-  description: "Research assistant since 2022 at the largest research institute in Greece CERTH - ITI at the visual computing lab."
+  description: "Research assistant since 2022 at the largest research institute in Greece CERTH - ITI at the visual computing lab.\n"
 
 - skill: Tools & Technologies
   list:
