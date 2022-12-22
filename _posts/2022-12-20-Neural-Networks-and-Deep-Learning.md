@@ -36,6 +36,33 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 **Normalization** is the process of scaling a set of values to have a mean of 0 and a standard deviation of 1.
 
+:::::: {.cols data-latex=""}
+
+::: {.col data-latex="{0.55\textwidth}"}
+
+![alt text](/img/postimages/shallowNN.png)
+
+A shallow neural network consists of an input, a hidden and an output layer.
+
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\
+
+<!-- an empty Div (with a white space), serving as
+a column separator -->
+
+:::
+
+::: {.col data-latex="{0.4\textwidth}"}
+
+![alt text](/img/postimages/activationFunctions.png)
+
+Activation functions are mathematical equations that determine the output of a neuron in a neural network.
+
+:::
+::::::
+
 ---
 
 # _References_
