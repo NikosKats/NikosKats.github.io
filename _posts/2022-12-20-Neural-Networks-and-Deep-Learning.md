@@ -36,32 +36,23 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 **Normalization** is the process of scaling a set of values to have a mean of 0 and a standard deviation of 1.
 
-:::::: {.cols data-latex=""}
+> :warning: **Warning:** Do not push the big red button.
 
-::: {.col data-latex="{0.55\textwidth}"}
+> :memo: **Note:** Sunrises are beautiful.
 
-![alt text](/img/postimages/shallowNN.png)
+> :bulb: **Tip:** Remember to appreciate the little things in life.
 
-A shallow neural network consists of an input, a hidden and an output layer.
+<figure>
+    <img src="/img/postimages/shallowNN.png"
+         alt="Shallow Neural Network">
+    <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
+</figure>
 
-:::
-
-::: {.col data-latex="{0.05\textwidth}"}
-\
-
-<!-- an empty Div (with a white space), serving as
-a column separator -->
-
-:::
-
-::: {.col data-latex="{0.4\textwidth}"}
-
-![alt text](/img/postimages/activationFunctions.png)
-
-Activation functions are mathematical equations that determine the output of a neuron in a neural network.
-
-:::
-::::::
+<figure>
+    <img src="/img/postimages/activationFunctions.png"
+         alt="Activation Functions">
+    <figcaption>Activation functions are mathematical equations that determine the output of a neuron in a neural network.</figcaption>
+</figure>
 
 ---
 
