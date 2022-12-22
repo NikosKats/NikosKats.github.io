@@ -18,7 +18,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     }
 </style>
 
@@ -67,14 +67,14 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 **Normalization** is the process of scaling a set of values to have a mean of 0 and a standard deviation of 1.
 
  <div class="row">
-        <div class="column" style="background-color:#ffffff; margin:1px;">
+        <div class="column" style="background-color:#ffffff;">
             <figure>
                 <img src="/img/postimages/shallowNN.png"
                     alt="Shallow Neural Network">
                 <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
             </figure>
         </div>
-        <div class="column" style="background-color:#ffffff; margin:1px;">
+        <div class="column" style="background-color:#ffffff;">
             <figure>
             <img src="/img/postimages/activationFunctions.png"
                 alt="Activation Functions">
