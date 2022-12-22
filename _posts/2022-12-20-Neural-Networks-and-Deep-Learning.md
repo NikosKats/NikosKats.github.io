@@ -81,6 +81,20 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 <p>Activation functions are mathematical equations 
     that determine the output of a neuron in a neural network.</p>
 
+Activation functions are used in artificial neural networks to introduce non-linearity into the model.
+
+The **sigmoid function**,** tanh function**, and **ReLU** (rectified linear unit) function are all commonly used activation functions in neural network models.
+
+The **sigmoid function** maps any input to a value between 0 and 1, which makes it a useful activation function for output layers that need to predict probabilities. However, the sigmoid function can saturate (i.e., produce output values that are very close to 0 or 1) when the input is large, which can slow down the training process and limit the model's ability to learn.
+
+The **tanh function** is similar to the sigmoid function, but it maps inputs to values between -1 and 1. Like the sigmoid function, the tanh function can saturate when the input is large, but it tends to perform better than the sigmoid function in certain scenarios.
+
+The **ReLU function** is defined as f(x) = max(0, x), where x is the input. The ReLU function maps negative values to 0 and positive values to themselves, which makes it a more efficient activation function than the sigmoid and tanh functions. However, the ReLU function can produce "dying ReLU" units, which are units that produce output values of 0 for all inputs and do not contribute to the model's prediction.
+
+The **leaky ReLU function** is a variant of the ReLU function that addresses the issue of dying ReLU units by allowing a small negative slope (i.e., a "leak") for negative input values. This helps to prevent the issue of dying ReLU units and can improve the model's performance.
+
+In summary, the sigmoid function is useful for output layers that need to predict probabilities, but it can be slow to train and prone to saturation. The tanh function is similar to the sigmoid function, but it tends to perform better in certain scenarios. The ReLU function is efficient but can produce dying ReLU units. The leaky ReLU function is a variant of the ReLU function that helps to prevent the issue of dying ReLU units.
+
 ---
 
 <figure class="center">
