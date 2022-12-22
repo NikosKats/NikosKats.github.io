@@ -22,7 +22,7 @@
     }
 </style>
 
-# This is a short summary for Neural Networks and Deep Learning course by Andrew Ng.
+# This is a short summary of Neural Networks and Deep Learning course by Andrew Ng.
 
 ## Introduction to Deep Learning
 
@@ -87,6 +87,8 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
         </div>
 </div>
 
+---
+
 <div class="row">
         <div class="column" style="background-color:#ffffff;">
             <figure>
@@ -110,6 +112,8 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
             </p>
         </div>
 </div>
+
+---
 
 <figure class="center">
     <img src="/img/postimages/gd.png" alt="Gradient Descent" width="100%" height="350px" >
