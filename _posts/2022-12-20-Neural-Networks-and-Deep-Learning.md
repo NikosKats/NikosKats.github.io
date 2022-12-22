@@ -1,3 +1,27 @@
+ <style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+</style>
+
 # This is a short summary for Neural Networks and Deep Learning course by Andrew Ng.
 
 ## Introduction to Deep Learning
@@ -7,7 +31,7 @@ A **Neuron** is inspired by the biological neuron and is the basic building bloc
 A neuron consists of a set of inputs, called dendrites, and a single output, called an axon. The inputs of a neuron are connected to the outputs of other neurons, forming a network of connections. Each connection is associated with a weight, which determines the strength of the connection.
 
 <figure>
-    <img src="/img/postimages/neuralNetwork.jpg" alt="Shallow Neural Network" width="100px" height="100px">
+    <img src="/img/postimages/neuralNetwork.jpg" alt="Shallow Neural Network" width="450px" height="450px" class="center">
     <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
 </figure>
 
@@ -26,7 +50,7 @@ In a Binary Classification problem, the result is a discrete value output - acco
 **Logistic Regression** is an algorithm for Binary Classification, it estimates the probability of an event occurring, such as voted or didn’t vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1. `𝐺𝑖𝑣𝑒𝑛 𝑥, 𝑦̂=𝑃(𝑦=1 | 𝑥), where 0 ≤𝑦̂≤1`
 
 <figure>
-    <img src="/img/postimages/logisticRegression.png" alt="Shallow Neural Network" width="100px" height="100px">
+    <img src="/img/postimages/logisticRegression.png" alt="Shallow Neural Network" width="450px" height="450px" class="center">
     <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
 </figure>
 
@@ -42,36 +66,15 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
 
 **Normalization** is the process of scaling a set of values to have a mean of 0 and a standard deviation of 1.
 
- <style>
-    {
-        box-sizing: border-box;
-    }
-    /* Set additional styling options for the columns*/
-    .column {
-    float: left;
-    width: 50%;
-    }
-
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-</style>
-
  <div class="row">
-        <div class="column" style="background-color:#ffffff; margin:5;">
-            <h2>Column 1</h2>
-            <p>Data..</p>
+        <div class="column" style="background-color:#ffffff; margin:5px;">
             <figure>
                 <img src="/img/postimages/shallowNN.png"
                     alt="Shallow Neural Network">
                 <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
             </figure>
         </div>
-        <div class="column" style="background-color:#ffffff; margin:5;">
-            <h2>Column 2</h2>
-            <p>Data..</p>
+        <div class="column" style="background-color:#ffffff; margin:5px;">
             <figure>
             <img src="/img/postimages/activationFunctions.png"
                 alt="Activation Functions">
