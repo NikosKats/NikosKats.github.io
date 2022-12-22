@@ -1,19 +1,22 @@
 - name: LinkedIn
-  url: https://linkedin.com/in/chadbaldwin
-  label: chadbaldwin
+  url: https://linkedin.com/in/nikolaos-katsilidis
+  label: nikolaos-katsilidis
 
-- name: Credly/Acclaim
-  url: https://credly.com/users/chadbaldwin
-  label: chadbaldwin
+# - name: Credly/Acclaim
+#   url: https://credly.com/users/chadbaldwin
+#   label: chadbaldwin
 
 - name: GitHub
   url: https://github.com/NikosKats
   label: NikosKats
 
 - name: StackOverflow
-  url: https://stackoverflow.com/users/3474677
-  label: chad-baldwin
+  url: https://stackoverflow.com/users/7101646/
+  label: mpesiths
 
-- name: PluralSight
-  url: https://app.pluralsight.com/profile/chadbaldwin
-  label: chadbaldwin
+- name: Leetcode
+  url: https://leetcode.com/katsilidisn/
+  label: katsilidisn
+# - name: PluralSight
+#   url: https://app.pluralsight.com/profile/chadbaldwin
+#   label: chadbaldwin
