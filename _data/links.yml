@@ -2,10 +2,6 @@
   url: https://linkedin.com/in/nikolaos-katsilidis
   label: nikolaos-katsilidis
 
-# - name: Credly/Acclaim
-#   url: https://credly.com/users/chadbaldwin
-#   label: chadbaldwin
-
 - name: GitHub
   url: https://github.com/NikosKats
   label: NikosKats
@@ -14,9 +10,21 @@
   url: https://stackoverflow.com/users/7101646/
   label: mpesiths
 
+- name: Microsoft
+  url: https://studentambassadors.microsoft.com/en-US/profile/40727
+  label: Nikolaos Katsilidis
+
 - name: Leetcode
   url: https://leetcode.com/katsilidisn/
   label: katsilidisn
+
+- name: HackerRank
+  url: https://www.hackerrank.com/Nikolaos_Katsil2
+  label: Nikolaos_Katsil2
+# - name: Credly/Acclaim
+#   url: https://credly.com/users/chadbaldwin
+#   label: chadbaldwin
+
 # - name: PluralSight
 #   url: https://app.pluralsight.com/profile/chadbaldwin
 #   label: chadbaldwin
