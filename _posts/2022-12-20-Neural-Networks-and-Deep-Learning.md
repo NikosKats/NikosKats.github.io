@@ -30,8 +30,8 @@ A **Neuron** is inspired by the biological neuron and is the basic building bloc
 
 A neuron consists of a set of inputs, called dendrites, and a single output, called an axon. The inputs of a neuron are connected to the outputs of other neurons, forming a network of connections. Each connection is associated with a weight, which determines the strength of the connection.
 
-<figure>
-    <img src="/img/postimages/neuralNetwork.jpg" alt="Shallow Neural Network" width="350px" height="350px" class="center">
+<figure class="center">
+    <img src="/img/postimages/neuralNetwork.jpg" alt="Shallow Neural Network" width="350px" height="350px" >
     <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
 </figure>
 
@@ -49,8 +49,8 @@ In a **Binary Classification** problem, the result is a discrete value output - 
 
 **Logistic Regression** is an algorithm for Binary Classification, it estimates the probability of an event occurring, such as voted or didn’t vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1. `𝐺𝑖𝑣𝑒𝑛 𝑥, 𝑦̂=𝑃(𝑦=1 | 𝑥), where 0 ≤𝑦̂≤1`
 
-<figure>
-    <img src="/img/postimages/logisticRegression.png" alt="Shallow Neural Network" width="350px" height="350px" class="center">
+<figure class="center">
+    <img src="/img/postimages/logisticRegression.png" alt="Shallow Neural Network" width="350px" height="350px" >
     <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
 </figure>
 
