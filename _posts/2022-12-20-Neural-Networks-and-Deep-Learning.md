@@ -74,6 +74,7 @@ In Python, **broadcasting** is a mechanism that allows arrays of different shape
                 <figcaption>A shallow neural network consists of an input, a hidden and an output layer.</figcaption>
             </figure>
         </div>
+        <br/>
         <div class="column" style="background-color:#ffffff;">
             <figure>
             <img src="/img/postimages/activationFunctions.png"
