@@ -180,12 +180,12 @@ Given an image represented by a feature vector 𝑥, the algorithm will evaluate
 `𝐺𝑖𝑣𝑒𝑛𝑥, 𝑦̂=𝑃(𝑦=1|𝑥),where0 ≤𝑦̂≤1`
 
 The parameters used in Logistic regression are:
-• The input features vector: `𝑥 ∈ R𝑛𝑥 , where 𝑛𝑥 is the number of features`
-• The training label: `𝑦 ∈ 0,1`
-• The weights: `𝑤 ∈ R𝑛𝑥, where 𝑛𝑥 is the number of features`
-• The threshold: `𝑏 ∈ R`
-• The output: `𝑦̂ = 𝜎(𝑤𝑇𝑥 + 𝑏)`
-• Sigmoid function: `s = 𝜎(𝑤𝑇𝑥 + 𝑏) = 𝜎(𝑧)= 1 / 1+𝑒−𝑧`
+- The input features vector: `𝑥 ∈ R𝑛𝑥 , where 𝑛𝑥 is the number of features`
+- The training label: `𝑦 ∈ 0,1`
+- The weights: `𝑤 ∈ R𝑛𝑥, where 𝑛𝑥 is the number of features`
+- The threshold: `𝑏 ∈ R`
+- The output: `𝑦̂ = 𝜎(𝑤𝑇𝑥 + 𝑏)`
+- Sigmoid function: `s = 𝜎(𝑤𝑇𝑥 + 𝑏) = 𝜎(𝑧)= 1 / 1+𝑒−𝑧`
 
 <figure class="center">
     <img src="/img/postimages/Screenshot 2022-12-23 at 9.53.37 AM.png" alt="Logistic Regression" width="100%" height="350px" >
@@ -196,9 +196,9 @@ The parameters used in Logistic regression are:
 
 Some observations from the graph:
 
-• `If 𝑧 is a large positive number, then 𝜎(𝑧) = 1`
-• `If 𝑧 is small or large negative number, then 𝜎(𝑧) = 0`
-• `If 𝑧=0,then 𝜎(𝑧)=0.5`
+- `If 𝑧 is a large positive number, then 𝜎(𝑧) = 1`
+- `If 𝑧 is small or large negative number, then 𝜎(𝑧) = 0`
+- `If 𝑧=0,then 𝜎(𝑧)=0.5`
 
 # _References_
 
