@@ -18,7 +18,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
     }
 </style>
 
@@ -170,6 +170,37 @@ Additionally, deep networks can be trained more efficiently using techniques suc
 
 # _Appendix_
 
+# Binary Classification
+
+In a binary classification problem, the result is a discrete value output. For example - account hacked (1) or not hacked (0) - a tumor malign (1) or benign(0)
+
+Example: Cat vs Non-Cat
+
+The goal is to train a classifier for which the input is an image represented by a feature vector, 𝑥, and predicts whether thecorresponding label𝑦is 1 or 0. In this case, whether this is a cat image(1)or a non-cat image (0).
+
+<figure class="center">
+    <img src="/img/postimages/Screenshot 2022-12-23 at 10.07.16 AM.png" alt="Binary Classification Schema" width="100%" height="350px" >
+    <figcaption><pre></pre></figcaption>
+</figure>
+
+An image is stored in the computer in three separate matrices corresponding to the Red, Green, and Blue color channels of the image. The three matrices have the same size as the image, for example, the resolutionof the cat image is 64 pixels X 64 pixels, the three matrices (RGB) are 64 X 64 each.
+
+The value in a cell represents the pixel intensity which will be used to create a feature vector of n- dimension. In pattern recognition and machine learning, a feature vector represents an image, Then the classifier's job is to determine whether it contain a picture of a cat or not.
+
+To create a feature vector, 𝑥, the pixel intensity values will be “ unrolled” or “ reshaped” for each color. The dimension of the input feature vector𝑥 is𝑛 = 64𝑥 64𝑥 3 = 12288.
+
+<figure class="center">
+    <img src="/img/postimages/Screenshot 2022-12-23 at 10.07.11 AM.png" alt="Vector" width="100%" height="350px" >
+    <figcaption><pre></pre></figcaption>
+</figure>
+
+---
+
+Quzi Questions Week 1 [^2]
+Quzi Questions Week 2 [^3]
+Quzi Questions Week 3 [^4]
+Quzi Questions Week 4 [^5]
+
 **Logistic Regression**
 
 Logistic regression is a learning algorithm used in a supervised learning problem when the output 𝑦 are all either zero or one. The goal of logistic regression is to minimize the error between its predictions and training data.
@@ -203,30 +234,10 @@ Some observations from the graph:
 
 ---
 
-# Binary Classification
-
-In a binary classification problem, the result is a discrete value output. For example - account hacked (1) or not hacked (0) - a tumor malign (1) or benign(0)
-
-Example: Cat vs Non-Cat
-
-The goal is to train a classifier for which the input is an image represented by a feature vector, 𝑥, and predicts whether thecorresponding label𝑦is 1 or 0. In this case, whether this is a cat image(1)or a non-cat image (0).
-
-<figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-23 at 10.07.16 AM.png" alt="Binary Classification Schema" width="100%" height="350px" >
-    <figcaption><pre></pre></figcaption>
-</figure>
-
-An image is stored in the computer in three separate matrices corresponding to the Red, Green, and Blue color channels of the image. The three matrices have the same size as the image, for example, the resolutionof the cat image is 64 pixels X 64 pixels, the three matrices (RGB) are 64 X 64 each.
-
-The value in a cell represents the pixel intensity which will be used to create a feature vector of n- dimension. In pattern recognition and machine learning, a feature vector represents an image, Then the classifier's job is to determine whether it contain a picture of a cat or not.
-
-To create a feature vector, 𝑥, the pixel intensity values will be “ unrolled” or “ reshaped” for each color. The dimension of the input feature vector𝑥 is𝑛 = 64𝑥 64𝑥 3 = 12288.
-
-<figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-23 at 10.07.11 AM.png" alt="Vector" width="100%" height="350px" >
-    <figcaption><pre></pre></figcaption>
-</figure>
-
 # _References_
 
 [^1]: [Neural Networks and Deep Learning by Andrew Ng](https://www.coursera.org/learn/neural-networks-deep-learning "Neural Networks and Deep Learning on Coursera")
+[^2]: [DLS - Course 1 - Week 1 - Quiz Questions](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-1-Quiz.html "DLS - Course 1 - Week 1 - Quiz Questions")
+[^3]: [DLS - Course 1 - Week 2 - Quiz Questions](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-2-Quiz.html "DLS - Course 1 - Week 2 - Quiz Questions")
+[^4]: [DLS - Course 1 - Week 3 - Quiz Questions](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-3-Quiz.html "DLS - Course 1 - Week 3 - Quiz Questions")
+[^5]: [DLS - Course 1 - Week 1 - Quiz Questions](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-4-Quiz.html "DLS - Course 1 - Week 4 - Quiz Questions")
