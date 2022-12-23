@@ -26,24 +26,25 @@
 
 # Table of Contents
 
-- Week 1
+- **Week 1**
+  - _Introduction to Deep Learning_
+    <br>
+- **Week 2**
+  - _Neural Network Basics_
+  - _Logistic Regression as a Neural Network_
+    <br>
+- **Week 3**
+  - _Shallow Neural Networks_
+    <br>
+- **Week 4**
+  - _Deep Neural Networks_
+    <br>
+- **Appendix**
+- **References**
 
-  - Introduction to Deep Learning
+---
 
-- Week 2
-
-  - Neural Network Basics
-  - Logistic Regression as a Neural Network
-
-- Week 3
-
-  - Shallow Neural Networks
-
-- Week 4
-  - Deep Neural Networks
-
-- Appendix
-- References
+# Week 1
 
 ## Introduction to Deep Learning
 
