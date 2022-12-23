@@ -46,7 +46,7 @@
 <br>
 
 <figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-09 at 10.35.40 AM.png" alt="Question 4" width="100%" height="350px" >
+    <img src="/img/postimages/Screenshot 2022-12-09 at 1.35.07 PM.png" alt="Question 4" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
 
