@@ -168,6 +168,36 @@ Additionally, deep networks can be trained more efficiently using techniques suc
 
 ---
 
+# _Appendix_
+
+`Standard notations for Deep Learning
+This document has the purpose of discussing a new standard for deep learning mathematical notations.
+1 Neural Networks Notations.
+General comments:
+· superscript (i) will denote the ith training example while superscript [l] will denote the lth layer
+Sizes:
+·m : number of examples in the dataset ·nx : input size
+·ny : output size (or number of classes)
+·n[l] : number of hidden units of the lth layer h
+In a for loop, it is possible to denote nx = n[0] and ny = nh[number of layers +1]. h
+·L : number of layers in the network.
+Ob jects:
+·X ∈ Rnx×m is the input matrix
+·x(i) ∈ Rnx is the ithexample represented as a column vector
+·Y ∈ Rny×m is the label matrix
+·y(i) ∈ Rny is the output label for the ith example
+·W[l] ∈ Rnumber of units in next layer × number of units in the previous layer is the weight matrix,superscript [l] indicates the layer
+·b[l] ∈ Rnumber of units in next layer is the bias vector in the lth layer
+·yˆ ∈ Rny is the predicted output vector. It can also be denoted a[L] where L
+is the number of layers in the network.
+Common forward propagation equation examples:
+a = g[l](Wxx(i) + b1) = g[l](z1) where g[l] denotes the lth layer activation function
+1
+yˆ(i) = softmax(Whh + b2)
+· General Activation Formula: aj = g[l]( k wjkak · J(x,W,b,y) or J(yˆ,y) denote the cost function.
+Examples of cost function:
+· JCE(yˆ,y) = −􏰀mi=0 y(i) logyˆ(i) · J1(yˆ, y) = 􏰀mi=0 | y(i) − yˆ(i) |`
+
 # _References_
 
 [^1]: [Neural Networks and Deep Learning by Andrew Ng](https://www.coursera.org/learn/neural-networks-deep-learning "Neural Networks and Deep Learning on Coursera")
