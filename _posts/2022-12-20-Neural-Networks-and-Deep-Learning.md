@@ -40,7 +40,8 @@
 - [Appendix](#9)
   - [Binary Classification](#10)
   - [Logistic Regression](#11)
-- [References](#12)
+  - [Quiz Answers](#12)
+- [References](#13)
 
 ---
 
@@ -310,12 +311,16 @@ Some observations from the graph:
 
 ---
 
+<a name='12'></a>
+
+**Quiz Answers**
+
 - [Quiz Questions Week 1](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-1-Quiz.html "DLS - Course 1 - Week 1 - Quiz Questions")
 - [Quiz Questions Week 2](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-2-Quiz.html "DLS - Course 1 - Week 2 - Quiz Questions")
 - [Quiz Questions Week 3](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-3-Quiz.html "DLS - Course 1 - Week 3 - Quiz Questions")
 - [Quiz Questions Week 4 ](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-4-Quiz.html "DLS - Course 1 - Week 4 - Quiz Questions")
 
-<a name='12'></a>
+<a name='13'></a>
 
 # _References_
 
