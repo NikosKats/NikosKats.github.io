@@ -22,8 +22,6 @@
     }
 </style>
 
-# This is a short summary of Neural Networks and Deep Learning course by Andrew Ng.
-
 # Table of Contents
 
 - **Week 1**
