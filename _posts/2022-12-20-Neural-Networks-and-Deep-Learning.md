@@ -24,25 +24,27 @@
 
 # Table of Contents
 
-- **Week 1**
+- **Introduction**
   - _Introduction to Deep Learning_
     <br>
-- **Week 2**
+- **Neural Network Basics**
   - _Neural Network Basics_
   - _Logistic Regression as a Neural Network_
     <br>
-- **Week 3**
+- **Shallow Neural Networks**
   - _Shallow Neural Networks_
     <br>
-- **Week 4**
+- **Deep Neural Networks**
   - _Deep Neural Networks_
     <br>
 - **Appendix**
+  - _Binary Classification_
+  - _Logistic Regression_
 - **References**
 
 ---
 
-# Week 1
+# Introduction
 
 ## Introduction to Deep Learning
 
@@ -63,9 +65,7 @@ Each node or artificial neuron is connected to another neuron and has an associa
 
 ---
 
-# Week 2
-
-## Neural Network Basics
+# Neural Network Basics
 
 ## Logistic Regression as a Neural Network
 
@@ -131,7 +131,7 @@ In summary, the sigmoid function is useful for output layers that need to predic
 
 ---
 
-# Week 3
+# Shallow Neural Networks
 
 ## Shallow Neural Networks
 
@@ -210,6 +210,8 @@ In summary, gradient descent is an optimization algorithm that is used to find t
     <img src="/img/postimages/dnn.png" alt="Deep Neural Network" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
+
+# Deep Neural Networks
 
 ## Deep Neural Networks
 
