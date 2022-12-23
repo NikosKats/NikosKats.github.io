@@ -196,11 +196,6 @@ To create a feature vector, 𝑥, the pixel intensity values will be “ unrolle
 
 ---
 
-Quzi Questions Week 1 [^2]
-Quzi Questions Week 2 [^3]
-Quzi Questions Week 3 [^4]
-Quzi Questions Week 4 [^5]
-
 **Logistic Regression**
 
 Logistic regression is a learning algorithm used in a supervised learning problem when the output 𝑦 are all either zero or one. The goal of logistic regression is to minimize the error between its predictions and training data.
@@ -232,12 +227,13 @@ Some observations from the graph:
 - `If 𝑧 is small or large negative number, then 𝜎(𝑧) = 0`
 - `If 𝑧=0,then 𝜎(𝑧)=0.5`
 
+- [Quiz Questions Week 1](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-1-Quiz.html "DLS - Course 1 - Week 1 - Quiz Questions")
+- [Quiz Questions Week 2](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-2-Quiz.html "DLS - Course 1 - Week 2 - Quiz Questions")
+- [Quiz Questions Week 3](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-3-Quiz.html "DLS - Course 1 - Week 3 - Quiz Questions")
+- [Quiz Questions Week 4 ](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-4-Quiz.html "DLS - Course 1 - Week 4 - Quiz Questions")
+
 ---
 
 # _References_
 
 [^1]: [Neural Networks and Deep Learning by Andrew Ng](https://www.coursera.org/learn/neural-networks-deep-learning "Neural Networks and Deep Learning on Coursera")
-[^2]: [DLS - Course 1 - Week 1 - Quiz Questions](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-1-Quiz.html "DLS - Course 1 - Week 1 - Quiz Questions")
-[^3]: [DLS - Course 1 - Week 2 - Quiz Questions](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-2-Quiz.html "DLS - Course 1 - Week 2 - Quiz Questions")
-[^4]: [DLS - Course 1 - Week 3 - Quiz Questions](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-3-Quiz.html "DLS - Course 1 - Week 3 - Quiz Questions")
-[^5]: [DLS - Course 1 - Week 1 - Quiz Questions](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-4-Quiz.html "DLS - Course 1 - Week 4 - Quiz Questions")
