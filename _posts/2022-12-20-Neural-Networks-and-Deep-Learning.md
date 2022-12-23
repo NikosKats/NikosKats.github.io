@@ -170,33 +170,35 @@ Additionally, deep networks can be trained more efficiently using techniques suc
 
 # _Appendix_
 
-`Standard notations for Deep Learning
-This document has the purpose of discussing a new standard for deep learning mathematical notations.
-1 Neural Networks Notations.
-General comments:
-· superscript (i) will denote the ith training example while superscript [l] will denote the lth layer
-Sizes:
-·m : number of examples in the dataset ·nx : input size
-·ny : output size (or number of classes)
-·n[l] : number of hidden units of the lth layer h
-In a for loop, it is possible to denote nx = n[0] and ny = nh[number of layers +1]. h
-·L : number of layers in the network.
-Ob jects:
-·X ∈ Rnx×m is the input matrix
-·x(i) ∈ Rnx is the ithexample represented as a column vector
-·Y ∈ Rny×m is the label matrix
-·y(i) ∈ Rny is the output label for the ith example
-·W[l] ∈ Rnumber of units in next layer × number of units in the previous layer is the weight matrix,superscript [l] indicates the layer
-·b[l] ∈ Rnumber of units in next layer is the bias vector in the lth layer
-·yˆ ∈ Rny is the predicted output vector. It can also be denoted a[L] where L
-is the number of layers in the network.
-Common forward propagation equation examples:
-a = g[l](Wxx(i) + b1) = g[l](z1) where g[l] denotes the lth layer activation function
-1
-yˆ(i) = softmax(Whh + b2)
-· General Activation Formula: aj = g[l]( k wjkak · J(x,W,b,y) or J(yˆ,y) denote the cost function.
-Examples of cost function:
-· JCE(yˆ,y) = −􏰀mi=0 y(i) logyˆ(i) · J1(yˆ, y) = 􏰀mi=0 | y(i) − yˆ(i) |`
+**Logistic Regression**
+
+Logistic regression is a learning algorithm used in a supervised learning problem when the output 𝑦 are all either zero or one. The goal of logistic regression is to minimize the error between its predictions and training data.
+Example: Cat vs No - cat
+
+Given an image represented by a feature vector 𝑥, the algorithm will evaluate the probability of a cat being in that image.
+
+`𝐺𝑖𝑣𝑒𝑛𝑥, 𝑦̂=𝑃(𝑦=1|𝑥),where0 ≤𝑦̂≤1`
+
+The parameters used in Logistic regression are:
+• The input features vector: `𝑥 ∈ R𝑛𝑥 , where 𝑛𝑥 is the number of features`
+• The training label: `𝑦 ∈ 0,1`
+• The weights: `𝑤 ∈ R𝑛𝑥, where 𝑛𝑥 is the number of features`
+• The threshold: `𝑏 ∈ R`
+• The output: `𝑦̂ = 𝜎(𝑤𝑇𝑥 + 𝑏)`
+• Sigmoid function: `s = 𝜎(𝑤𝑇𝑥 + 𝑏) = 𝜎(𝑧)= 1 / 1+𝑒−𝑧`
+
+<figure class="center">
+    <img src="/img/postimages/Screenshot 2022-12-23 at 9.53.37 AM.png" alt="Logistic Regression" width="100%" height="350px" >
+    <figcaption><pre></pre></figcaption>
+</figure>
+
+(𝑤𝑇𝑥 + 𝑏) is a linear function (𝑎𝑥 + 𝑏), but since we are looking for a probability constraint between [0,1], the sigmoid function is used. The function is bounded between [0,1] as shown in the graph above.
+
+Some observations from the graph:
+
+• `If 𝑧 is a large positive number, then 𝜎(𝑧) = 1`
+• `If 𝑧 is small or large negative number, then 𝜎(𝑧) = 0`
+• `If 𝑧=0,then 𝜎(𝑧)=0.5`
 
 # _References_
 
