@@ -122,6 +122,14 @@ The intuition behind the weights and biases is that they allow the network to le
 
 In summary, the values "w" and "b" in gradient descent for deep neural networks are the weights and biases of the network, respectively. They are updated during the training process to minimize the loss function and improve the accuracy of the network's predictions.
 
+In gradient descent for deep neural networks, the values "dw" and "db" are the partial derivatives of the loss function with respect to the weights and biases, respectively. These values are used to update the weights and biases during the training process in order to minimize the loss function and improve the accuracy of the network's predictions.
+
+The partial derivative "dw" represents the change in the loss function with respect to a change in the weights "w". It measures how much the loss function would change if the weights were adjusted by a small amount. The partial derivative "db" represents the change in the loss function with respect to a change in the biases "b". It measures how much the loss function would change if the biases were adjusted by a small amount.
+
+The intuition behind the partial derivatives "dw" and "db" is that they allow the network to learn and make predictions based on the input data. The training process adjusts the values of the weights and biases based on the partial derivatives in order to reduce the loss and improve the accuracy of the predictions made by the network.
+
+In summary, the values "dw" and "db" in gradient descent for deep neural networks are the partial derivatives of the loss function with respect to the weights and biases, respectively. They are used to update the weights and biases during the training process in order to minimize the loss function and improve the accuracy of the network's predictions.
+
 <figure class="center">
     <img src="/img/postimages/fprop_bprop.png" alt="Forward and Backward propagation">
     <figcaption><pre></pre></figcaption>
