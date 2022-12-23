@@ -59,7 +59,7 @@ In deep neural networks, the letter "z" is often used to represent the output of
 
 For example, if we have a layer in a neural network with weights w and inputs x, the pre-activation value z for that layer can be calculated as follows:
 
-z = w * x
+z = w \* x
 
 The value of z is then passed through an activation function, which is a non-linear function that transforms the linear combination of the inputs and weights into a non-linear output. The activation function is typically applied element-wise to the value of z.
 
@@ -112,19 +112,24 @@ In summary, the sigmoid function is useful for output layers that need to predic
     <figcaption><pre></pre></figcaption>
 </figure>
 
-<p>Gradient Descent is an optimization algorithm. The algorithm works by iteratively updating the values of the parameters in the direction that reduces the loss. 
-</p>
+Gradient Descent is an optimization algorithm. The algorithm works by iteratively updating the values of the parameters in the direction that reduces the loss.
+
+In gradient descent for deep neural networks, the values "w" and "b" are the weights and biases for the network, respectively. These values are updated during the training process to minimize the loss function of the network, which measures the difference between the predicted output and the true output for a given input.
+
+The weights "w" represent the strength of the connection between the neurons in different layers of the network. They determine how much each input contributes to the output of the network. The biases "b" represent an additional parameter that can be adjusted to shift the output of the network up or down.
+
+The intuition behind the weights and biases is that they allow the network to learn and make predictions based on the input data. The training process adjusts the values of the weights and biases to reduce the loss and improve the accuracy of the predictions made by the network.
+
+In summary, the values "w" and "b" in gradient descent for deep neural networks are the weights and biases of the network, respectively. They are updated during the training process to minimize the loss function and improve the accuracy of the network's predictions.
 
 <figure class="center">
     <img src="/img/postimages/fprop_bprop.png" alt="Forward and Backward propagation">
     <figcaption><pre></pre></figcaption>
 </figure>
 
-<p> 
-            In Forward propagation the input data is processed through the network layers to generate output.
-            Backpropagation’s goal  is to adjust the weights of the connections in such a way as to minimize the difference between the predicted output of the network and the target output.
-            A neural network in contrast with logistic regression that initializes its parameters with zero, has to randomly initialize its parameters in order to work.
-</p>
+In Forward propagation the input data is processed through the network layers to generate output.
+Backpropagation’s goal is to adjust the weights of the connections in such a way as to minimize the difference between the predicted output of the network and the target output.
+A neural network in contrast with logistic regression that initializes its parameters with zero, has to randomly initialize its parameters in order to work.
 
 A **partial derivative** is a derivative taken with respect to one variable, holding the other variables fixed. It allows you to see how much a function changes when you change one of its variables, while keeping the others constant.
 
