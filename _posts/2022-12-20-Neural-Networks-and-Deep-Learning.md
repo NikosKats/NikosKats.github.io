@@ -24,6 +24,27 @@
 
 # This is a short summary of Neural Networks and Deep Learning course by Andrew Ng.
 
+# Table of Contents
+
+- Week 1
+
+  - Introduction to Deep Learning
+
+- Week 2
+
+  - Neural Network Basics
+  - Logistic Regression as a Neural Network
+
+- Week 3
+
+  - Shallow Neural Networks
+
+- Week 4
+  - Deep Neural Networks
+
+- Appendix
+- References
+
 ## Introduction to Deep Learning
 
 A **Neuron** is inspired by the biological neuron and is the basic building block of neural networks. Neurons are responsible for computing and transmitting information through the network.
@@ -42,6 +63,10 @@ Each node or artificial neuron is connected to another neuron and has an associa
 > Deep Learning is rising in recent times because of the amount of data available as well as the computational power provided. The other important factor is the development of even better deep learning algorithms and the invention of new more capable ones by the research community. [^1]
 
 ---
+
+# Week 2
+
+## Neural Network Basics
 
 ## Logistic Regression as a Neural Network
 
@@ -107,6 +132,10 @@ In summary, the sigmoid function is useful for output layers that need to predic
 
 ---
 
+# Week 3
+
+## Shallow Neural Networks
+
 <figure class="center">
     <img src="/img/postimages/gradientDescent.png" alt="Gradient Descent">
     <figcaption><pre></pre></figcaption>
@@ -157,6 +186,8 @@ Convergence is often used to analyze the behavior of algorithms and other proces
 
 ---
 
+# Week 4
+
 <figure class="center">
     <img src="/img/postimages/gd.png" alt="Gradient Descent" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
@@ -180,6 +211,8 @@ In summary, gradient descent is an optimization algorithm that is used to find t
     <img src="/img/postimages/dnn.png" alt="Deep Neural Network" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
+
+## Deep Neural Networks
 
 A Deep Neural Network consists of multiple hidden layers. A neural network with more than one hidden layer is consider deep.
 
