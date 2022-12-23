@@ -95,7 +95,14 @@
 <br>
 
 <figure class="center">
-    <img src="#" alt="Question 9" width="100%" height="350px" >
+    <img src="/img/postimages/Screenshot 2022-12-23 at 2.21.48 PM.png" alt="Question 9 Schema" width="100%" height="350px" >
+    <figcaption><pre></pre></figcaption>
+</figure>
+
+<br>
+
+<figure class="center">
+    <img src="/img/postimages/Screenshot 2022-12-23 at 2.22.06 PM.png" alt="Question 9" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
 
