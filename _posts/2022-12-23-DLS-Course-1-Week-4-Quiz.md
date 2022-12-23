@@ -22,7 +22,7 @@
     }
 </style>
 
-# Neural Networks and Deep Learning Week 2 Quiz Answers
+# Neural Networks and Deep Learning Week 4 Quiz Answers
 
 <figure class="center">
     <img src="/img/postimages/Screenshot 2022-12-23 at 1.27.16 PM.png" alt="Question 1" width="100%" height="350px" >
@@ -95,7 +95,7 @@
 <br>
 
 <figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-09 at 2.05.55 PM.png" alt="Question 9" width="100%" height="350px" >
+    <img src="#" alt="Question 9" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
 

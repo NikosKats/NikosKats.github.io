@@ -22,7 +22,7 @@
     }
 </style>
 
-# Neural Networks and Deep Learning Week 2 Quiz Answers
+# Neural Networks and Deep Learning Week 3 Quiz Answers
 
 <figure class="center">
     <img src="/img/postimages/Screenshot 2022-12-23 at 10.44.59 AM.png" alt="Question 1" width="100%" height="350px" >
