@@ -60,7 +60,7 @@
 <br>
 
 <figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-09 at 2.05.33 PM.png" alt="Question 5" width="100%" height="350px" >
+    <img src="/img/postimages/Screenshot 2022-12-23 at 12.19.16 PM.png" alt="Question 5" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
 
