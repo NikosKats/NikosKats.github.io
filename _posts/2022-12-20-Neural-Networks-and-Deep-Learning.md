@@ -227,12 +227,12 @@ Some observations from the graph:
 - `If 𝑧 is small or large negative number, then 𝜎(𝑧) = 0`
 - `If 𝑧=0,then 𝜎(𝑧)=0.5`
 
+---
+
 - [Quiz Questions Week 1](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-1-Quiz.html "DLS - Course 1 - Week 1 - Quiz Questions")
 - [Quiz Questions Week 2](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-2-Quiz.html "DLS - Course 1 - Week 2 - Quiz Questions")
 - [Quiz Questions Week 3](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-3-Quiz.html "DLS - Course 1 - Week 3 - Quiz Questions")
 - [Quiz Questions Week 4 ](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-4-Quiz.html "DLS - Course 1 - Week 4 - Quiz Questions")
-
----
 
 # _References_
 
