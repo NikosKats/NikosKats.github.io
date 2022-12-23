@@ -78,7 +78,8 @@ print ("test: " + test)
 **Expected output**:
 test: Hello World
 
-<font color='blue'>
+<!-- <font color='blue'> -->
+
 <b>What you need to remember </b>:
     
 - Run your cells using SHIFT+ENTER (or "Run cell")
@@ -591,7 +592,7 @@ softmax_test(softmax)
 
 Congratulations! You now have a pretty good understanding of python numpy and have implemented a few useful functions that you will be using in deep learning.
 
-<font color='blue'>
+<!-- <font color='blue'> -->
 <b>What you need to remember:</b>
     
 - np.exp(x) works for any np.array x and applies the exponential function to every coordinate
@@ -831,7 +832,7 @@ L2_test(L2)
 
 Congratulations on completing this assignment. We hope that this little warm-up exercise helps you in the future assignments, which will be more exciting and interesting!
 
-<font color='blue'>
+<!-- <font color='blue'> -->
 <b>What to remember:</b>
     
 - Vectorization is very important in deep learning. It provides computational efficiency and clarity.

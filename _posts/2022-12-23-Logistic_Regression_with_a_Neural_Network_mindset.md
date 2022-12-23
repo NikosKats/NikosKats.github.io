@@ -245,7 +245,7 @@ train_set_x = train_set_x_flatten / 255.
 test_set_x = test_set_x_flatten / 255.
 ```
 
-<font color='blue'>
+<!-- <font color='blue'> -->
     
     
 **What you need to remember:**
@@ -697,7 +697,7 @@ predict_test(predict)
     [92mAll tests passed!
 
 
-<font color='blue'>
+<!-- <font color='blue'> -->
     
 **What to remember:**
     
@@ -935,7 +935,7 @@ my_predicted_image = predict(logistic_regression_model["w"], logistic_regression
 print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts a \"" + classes[int(np.squeeze(my_predicted_image)),].decode("utf-8") +  "\" picture.")
 ```
 
-<font color='blue'>
+<!-- <font color='blue'> -->
     
 **What to remember from this assignment:**
 1. Preprocessing the dataset is important.
