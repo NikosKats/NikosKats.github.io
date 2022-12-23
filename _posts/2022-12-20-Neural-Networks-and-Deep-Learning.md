@@ -55,6 +55,16 @@ In a **Binary Classification** problem, the result is a discrete value output - 
     logistic regression function and the activation function</pre></figcaption>
 </figure>
 
+In deep neural networks, the letter "z" is often used to represent the output of the linear combination of the weights and inputs at a particular layer in the network. This is also known as the pre-activation value or the weighted sum of the inputs.
+
+For example, if we have a layer in a neural network with weights w and inputs x, the pre-activation value z for that layer can be calculated as follows:
+
+z = w * x
+
+The value of z is then passed through an activation function, which is a non-linear function that transforms the linear combination of the inputs and weights into a non-linear output. The activation function is typically applied element-wise to the value of z.
+
+In summary, the letter "z" is used to represent the output of the linear combination of the weights and inputs at a particular layer in a neural network, before the activation function is applied.
+
 The **loss function** measures the discrepancy between the prediction (𝑦̂(𝑖)) and the desired output (𝑦(𝑖)). In other words, the loss function computes the error for a single training example.
 
 The **cost function** is the average of the loss function of the entire training set. We are going to find the parameters 𝑤 𝑎𝑛𝑑 𝑏 that minimize the overall cost function.

@@ -81,28 +81,21 @@
 <br>
 
 <figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-23 at 12.19.25 PM.png" alt="Question 8" width="100%" height="350px" >
+    <img src="#" alt="Question 8" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
 
 <br>
 
 <figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-09 at 2.05.55 PM.png" alt="Question 9" width="100%" height="350px" >
+    <img src="#" alt="Question 9" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
 
 <br>
 
 <figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-09 at 1.35.37 PM.png" alt="Question 10 Schema" width="100%" height="350px" >
-    <figcaption><pre></pre></figcaption>
-</figure>
-
-<br>
-
-<figure class="center">
-    <img src="/img/postimages/Screenshot 2022-12-09 at 1.35.40 PM.png" alt="Question 10" width="100%" height="350px" >
+    <img src="#" alt="Question 10" width="100%" height="350px" >
     <figcaption><pre></pre></figcaption>
 </figure>
 
