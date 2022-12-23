@@ -24,27 +24,31 @@
 
 # Table of Contents
 
-- **Introduction**
-  - _Introduction to Deep Learning_
+- [Introduction](#0)
+  - [Introduction to Deep Learning](#1)
     <br>
-- **Neural Network Basics**
-  - _Neural Network Basics_
-  - _Logistic Regression as a Neural Network_
+- [Neural Network Basics](#2)
+  - [Neural Network Basics](#3)
+  - [Logistic Regression as a Neural Network](#4)
     <br>
-- **Shallow Neural Networks**
-  - _Shallow Neural Networks_
+- [Shallow Neural Networks](#5)
+  - [Shallow Neural Networks](#6)
     <br>
-- **Deep Neural Networks**
-  - _Deep Neural Networks_
+- [Deep Neural Networks](#7)
+  - [Deep Neural Networks](#8)
     <br>
-- **Appendix**
-  - _Binary Classification_
-  - _Logistic Regression_
-- **References**
+- [Appendix](#9)
+  - [Binary Classification](#10)
+  - [Logistic Regression](#11)
+- [References](#12)
 
 ---
 
+<a name='0'></a>
+
 # Introduction
+
+<a name='1'></a>
 
 ## Introduction to Deep Learning
 
@@ -65,7 +69,15 @@ Each node or artificial neuron is connected to another neuron and has an associa
 
 ---
 
+<a name='2'></a>
+
 # Neural Network Basics
+
+<a name='3'></a>
+
+## Neural Network Basics
+
+<a name='4'></a>
 
 ## Logistic Regression as a Neural Network
 
@@ -131,7 +143,11 @@ In summary, the sigmoid function is useful for output layers that need to predic
 
 ---
 
+<a name='5'></a>
+
 # Shallow Neural Networks
+
+<a name='6'></a>
 
 ## Shallow Neural Networks
 
@@ -185,7 +201,9 @@ Convergence is often used to analyze the behavior of algorithms and other proces
 
 ---
 
-# Week 4
+<a name='7'></a>
+
+# Deep Neural Networks
 
 <figure class="center">
     <img src="/img/postimages/gd.png" alt="Gradient Descent" width="100%" height="350px" >
@@ -211,7 +229,7 @@ In summary, gradient descent is an optimization algorithm that is used to find t
     <figcaption><pre></pre></figcaption>
 </figure>
 
-# Deep Neural Networks
+<a name='8'></a>
 
 ## Deep Neural Networks
 
@@ -225,7 +243,11 @@ Additionally, deep networks can be trained more efficiently using techniques suc
 
 ---
 
+<a name='9'></a>
+
 # _Appendix_
+
+<a name='10'></a>
 
 # Binary Classification
 
@@ -252,6 +274,8 @@ To create a feature vector, 𝑥, the pixel intensity values will be “ unrolle
 </figure>
 
 ---
+
+<a name='11'></a>
 
 **Logistic Regression**
 
@@ -290,6 +314,8 @@ Some observations from the graph:
 - [Quiz Questions Week 2](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-2-Quiz.html "DLS - Course 1 - Week 2 - Quiz Questions")
 - [Quiz Questions Week 3](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-3-Quiz.html "DLS - Course 1 - Week 3 - Quiz Questions")
 - [Quiz Questions Week 4 ](https://nikoskats.github.io/2022/12/23/DLS-Course-1-Week-4-Quiz.html "DLS - Course 1 - Week 4 - Quiz Questions")
+
+<a name='12'></a>
 
 # _References_
 
